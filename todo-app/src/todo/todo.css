@@ -1,0 +1,62 @@
+.header {
+  display: grid;
+  grid-template-columns: 3fr 4fr;
+  align-items: baseline;
+}
+.todo_item {
+  display: grid;
+  align-items: baseline;
+  grid-template-columns: 1fr 9fr 1fr;
+}
+.add_todo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.task_input {
+  width: 80%;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex_start {
+  justify-content: start;
+}
+
+.flex_end {
+  justify-content: end;
+}
+
+.task_title {
+  text-align: left;
+  text-wrap: wrap;
+}
+
+.todo_app {
+  text-align: center;
+  margin: auto;
+  max-width: 60vw;
+}
+
+.margin_zero {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .todo_app {
+    margin: 10%;
+    max-width: 100%;
+  }
+  .header {
+    grid-template-columns: 1fr;
+  }
+
+  .flex_end {
+    justify-content: start;
+  }
+  .filter {
+    margin-top: 10%;
+  }
+}

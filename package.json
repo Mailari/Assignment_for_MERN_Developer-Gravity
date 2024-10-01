@@ -1,0 +1,12 @@
+{
+  "name": "Assignment_for_MERN_Developer-Gravity",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Mailari/Assignment_for_MERN_Developer-Gravity.git",
+  "author": "Mailari <mailarighulihond@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "mongodb": "^6.9.0"
+  }
+}
